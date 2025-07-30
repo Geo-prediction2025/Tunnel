@@ -1,4 +1,5 @@
 Use of forward modeling program
+This program is written in Fortran and is used for advanced geological prediction. It requires compiling the environment first, and then using the tetgen grid subdivision software. The anisotropy control file is in the txt file res, and the main program is in the main file.Compile and run the program on the wondow10 system.
 The use of 1Tetgen
 The surface measurement point node should have it, and it should be declared again in the facet
 When there are multiple layers, they can be made in blocks or layers
@@ -15,5 +16,5 @@ Need to modify the size of the stack
 3 Surfer draws contour maps
 Click on Grid/Data to input the txt file
 Click on map/new/caption to output contour map
-1. Modify the project stack size. Right clicking on 'Project', 'Properties', linker, systerm is not a solution
+Modify the project stack size. Right clicking on 'Project', 'Properties', linker, systerm is not a solution
 If solved using a quadratic field. Define analysis in the secondary field. In F90, it is necessary to determine whether a field is in full space or half space.
